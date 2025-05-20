@@ -6,6 +6,15 @@ import P from "../layout/P";
 import Input from "../layout/form/Input";
 import Textarea from "../layout/form/Textarea";
 import colors from "../cores/colors";
+import Imagem from "../layout/Imagem";
+import whatsApp from "../assets/icons/whatsApp.svg";
+import gmail from "../assets/icons/gmail-novo.svg"
+
+const styleIconesContato = {
+    width: '100%',
+    maxWidth: '40px',
+}
+
 
 const Contato = () =>{
     return(
@@ -37,7 +46,12 @@ const Contato = () =>{
                     padding: '10px',
                     boxSizing: 'border-box'
                 }}>
-                    ícones
+                    <a href="" target="_blank">
+                        <Imagem src={whatsApp} alt="WhatsApp" style={styleIconesContato} />
+                    </a>
+                    <a href="mailto:marciomoraes.cdd@gmail.com" target="_blank">
+                        <Imagem src={gmail} alt="WhatsApp" style={styleIconesContato} />
+                    </a>
                 </div>
                 <div style={{
                     width: '100%',
