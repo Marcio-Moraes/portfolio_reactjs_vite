@@ -67,6 +67,7 @@ const Projetos = () =>{
 
     const projetosNextjs = listaProjetos.filter(itemP => itemP.tecnologias === '#nextjs');    
     const projetosReactjs = listaProjetos.filter(itemP => itemP.tecnologias === '#reactjs');    
+    const projetosJavascript = listaProjetos.filter(itemP => itemP.tecnologias === '#javascript');    
 
     
     

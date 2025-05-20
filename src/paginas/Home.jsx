@@ -24,8 +24,8 @@ const Home = () => {
                 <P mb="50px" texto="Nextjs/Reactjs, Typescript, Tailwindcss, Git/GitHub" />
 
                 
-                <Botao texto="Me contratar" link="/contato" />
-                <Botao texto="Veja meus projetos" mt="10px" link="/projetos" />
+                <Botao texto="Me contratar" link="/portfolio_reactjs_vite/contato" />
+                <Botao texto="Veja meus projetos" mt="10px" link="/portfolio_reactjs_vite/projetos" />
             </Caixatitle>
         </Caixa>
     )

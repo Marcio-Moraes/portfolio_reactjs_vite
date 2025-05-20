@@ -35,7 +35,7 @@ const Sobre = () =>{
                 <P mb="20px" align="center" texto="Utilizo as linguagens e tecnologias ReactJS, NextJS, Javascript, e/ou Typescript, Tailwindcss, Git GitHub, e também crio temas personalizados para WordPress" />
                 <P mb="10px" align="center" texto="Já desenvolvi vários tipos de projetos. Veja um pouco do que já fiz." />
 
-                <Botao texto="Meus Projetos" link="/projetos" />
+                <Botao texto="Meus Projetos" link="/portfolio_reactjs_vite/projetos" />
             </Caixatitle>
         </Caixa>
     )
