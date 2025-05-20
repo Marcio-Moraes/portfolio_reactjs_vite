@@ -46,7 +46,7 @@ const Contato = () =>{
                     padding: '10px',
                     boxSizing: 'border-box'
                 }}>
-                    <a href="" target="_blank">
+                    <a href="https://wa.me/5581986709660?text=Oi%20M%C3%A1rcio%2C%20vim%20pelo%20Site!" target="_blank">
                         <Imagem src={whatsApp} alt="WhatsApp" style={styleIconesContato} />
                     </a>
                     <a href="mailto:marciomoraes.cdd@gmail.com" target="_blank">
