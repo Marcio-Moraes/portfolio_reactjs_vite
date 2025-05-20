@@ -45,7 +45,9 @@ const Contato = () =>{
                     width: '100%',
                     maxWidth: '500px',
                     padding: '10px',
-                    boxSizing: 'border-box'
+                    boxSizing: 'border-box',
+                    display: 'flex',
+                    justifyContent: 'center'
                 }}>
                     <a href="https://wa.me/5581986709660?text=Oi%20M%C3%A1rcio%2C%20vim%20pelo%20Site!" target="_blank">
                         <Imagem src={whatsApp} alt="WhatsApp" style={styleIconesContato} />
