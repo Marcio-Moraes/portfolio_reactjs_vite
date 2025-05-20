@@ -13,6 +13,7 @@ import gmail from "../assets/icons/gmail-novo.svg"
 const styleIconesContato = {
     width: '100%',
     maxWidth: '40px',
+    margin: "10px"
 }
 
 
@@ -57,7 +58,8 @@ const Contato = () =>{
                     width: '100%',
                     maxWidth: '500px',
                     padding: '10px',
-                    boxSizing: 'border-box'
+                    boxSizing: 'border-box',
+                    display: 'none'
                 }}>
                     <form action="" style={{
                         padding: '40px 30px',
