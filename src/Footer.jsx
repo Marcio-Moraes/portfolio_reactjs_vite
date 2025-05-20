@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
 
             <a 
-                href="#" 
+                href="https://wa.me/5581986709660?text=Oi%20M%C3%A1rcio%2C%20vim%20pelo%20Site!" 
                 target="_blank"
                 style={{
                     position: 'fixed',
