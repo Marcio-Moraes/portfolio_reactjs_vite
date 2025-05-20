@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+:root{
+  --principal-1: rgb(0, 113, 183);
+  --branco-1: #fff;
+  --branco-2: #c1c1c1;
+
+  /* --bg-escuro-1: #08070b; */
+  --bg-escuro-1: #1B1A20;
+  --bg-escuro-2: #08070b;
+  --bg-escuro-3: #1f1f23;
+  --text-footer: #787878;
+}
+.caixa{
+  width: 100%;
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+body{
+  background-color: var(--bg-escuro-1);
+  color: var(--branco-1);
+  overflow-y: scroll;
+}
+
+.div_logo_topo a{
+  font-size: 48px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--branco-1);
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px;
+  line-height: 1em;
+}
+.div_logo_topo a:hover{
+  color: var(--principal-1);
+}
+
+.div_nav nav a:hover{
+  background-color: var(--principal-1);
+}
+
+@media(max-width: 828px){
+  .div_nav{
+    display: none;
+  }
+  .titulopadrao{
+    font-size: 2em !important;
+  }
+  .caixatitle{
+    padding: 10px 50px !important;
+  }
+}
+
+
