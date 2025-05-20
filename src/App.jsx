@@ -21,11 +21,11 @@ function App() {
       <Header />
       <Barra />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='sobre' element={<Sobre />} />
-        <Route path='projetos' element={<Projetos />} />
-        <Route path='carreira' element={<Carreira />} />
-        <Route path='contato' element={<Contato />} />
+        <Route path='/portfolio_reactjs_vite' element={<Home />} />
+        <Route path='/portfolio_reactjs_vite/sobre' element={<Sobre />} />
+        <Route path='/portfolio_reactjs_vite/projetos' element={<Projetos />} />
+        <Route path='/portfolio_reactjs_vite/carreira' element={<Carreira />} />
+        <Route path='/portfolio_reactjs_vite/contato' element={<Contato />} />
       </Routes>
       <Footer />
     </BrowserRouter>
