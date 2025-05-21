@@ -81,31 +81,31 @@ const Header = () => {
                         }}
                         >
                             <Link 
-                                to="/portfolio_reactjs_vite" 
+                                to="/" 
                                 style={styleItemMenu}                            
                             >
                                 Home
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/sobre" 
+                                to="/sobre" 
                                 style={styleItemMenu}
                             >
                                 Sobre
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/projetos" 
+                                to="/projetos" 
                                 style={styleItemMenu}
                             >
                                 Projetos
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/carreira" 
+                                to="/carreira" 
                                 style={styleItemMenu}
                             >
                                 Carreira
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/contato" 
+                                to="/contato" 
                                 style={styleItemMenu}
                             >
                                 Contato
@@ -128,31 +128,31 @@ const Header = () => {
                         }}
                         >
                             <Link 
-                                to="/portfolio_reactjs_vite" 
+                                to="/" 
                                 style={styleItemMenu}                            
                             >
                                 Home
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/sobre" 
+                                to="/sobre" 
                                 style={styleItemMenu}
                             >
                                 Sobre
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/projetos" 
+                                to="/projetos" 
                                 style={styleItemMenu}
                             >
                                 Projetos
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/carreira" 
+                                to="/carreira" 
                                 style={styleItemMenu}
                             >
                                 Carreira
                             </Link>
                             <Link 
-                                to="/portfolio_reactjs_vite/contato" 
+                                to="/contato" 
                                 style={styleItemMenu}
                             >
                                 Contato

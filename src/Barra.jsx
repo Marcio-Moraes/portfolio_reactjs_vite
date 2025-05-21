@@ -22,19 +22,19 @@ const Barra = () => {
             gap: '26px',
             padding: '16px 3px',
         }}>
-            <Link to="/portfolio_reactjs_vite">
+            <Link to="/">
                 <House color={colors.branco1} size={26} />
             </Link>
-            <Link to="/portfolio_reactjs_vite/sobre">
+            <Link to="/sobre">
                 <SquareUser color={colors.branco1} size={26} />
             </Link>
-            <Link to="/portfolio_reactjs_vite/projetos">
+            <Link to="/projetos">
                 <BookOpenCheck color={colors.branco1} size={26} />
             </Link>
-            <Link to="/portfolio_reactjs_vite/carreira">
+            <Link to="/carreira">
                 <Armchair color={colors.branco1} size={26} />
             </Link>
-            <Link to="/portfolio_reactjs_vite/contato">
+            <Link to="/contato">
                 <PhoneOutgoing color={colors.branco1} size={26} />
             </Link>
         </div>
