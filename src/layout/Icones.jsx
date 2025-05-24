@@ -17,7 +17,7 @@ import Imagem from "../layout/Imagem";
 const styleLogos = {
     width: '100%',
     maxWidth: '40px',
-    margin: '0px auto',
+    margin: '0px',
 }
 
 const styleDivLogos = {
