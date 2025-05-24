@@ -44,7 +44,7 @@ let projetosLista = [
       name: 'Breda Brand', 
       img: 'https://marcio-moraes.github.io/portfolio/assets/images/04-breda-moda-feminina.png', 
       gitcode: '#', tecnologias: '#wordpress', 
-      description: 'Loja de Vestuário Feminino', 
+      description: 'Loja de Vestuário Feminino, desenvolvida em WordPress e Woocommerce', 
       classTipo:'wordpress', 
       link: 'https://bredabrand.com.br/'
     },
@@ -54,19 +54,19 @@ let projetosLista = [
       img: 'https://marcio-moraes.github.io/portfolio/assets/images/05-linostoque.png', 
       gitcode: '#', 
       tecnologias: '#wordpress', 
-      description: 'Loja de Vestuário Feminino', 
+      description: 'Loja de Calçados e acessórios Femininos, Masculinos e Unissex. Desenvolvida em WordPress e Woocommerce', 
       classTipo:'wordpress', 
       link: 'https://www.linostoque.com.br/'
     },
     {
       id: 7, 
       name: 'Relógio Analógico e Digital', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/breda-moda-feminina.png', 
+      img: 'https://marcio-moraes.github.io/portfolio/assets/images/relogio_analogico_digital.png', 
       gitcode: '#', 
       tecnologias: '#javascript', 
       description: 'Relógio Analógico e Digital - consulta e exibe a hora de acordo com informações de data e hora do computador do usuário com Javascript', 
       classTipo:'javascript', 
-      link: 'https://bredabrand.com.br/'
+      link: 'https://marcio-moraes.github.io/relogio-analogico-digital/'
     },
   ];
   
