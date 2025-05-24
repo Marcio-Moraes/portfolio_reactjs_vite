@@ -62,7 +62,7 @@ let projetosLista = [
       id: 7, 
       name: 'Relógio Analógico e Digital', 
       img: 'https://marcio-moraes.github.io/portfolio/assets/images/relogio_analogico_digital.png', 
-      gitcode: '#', 
+      gitcode: 'https://github.com/Marcio-Moraes/relogio-analogico-digital', 
       tecnologias: '#javascript', 
       description: 'Relógio Analógico e Digital - consulta e exibe a hora de acordo com informações de data e hora do computador do usuário com Javascript', 
       classTipo:'javascript', 
