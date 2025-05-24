@@ -12,7 +12,7 @@ let projetosLista = [
     {
       id: 2, 
       name: 'Portfólio versão Javascript', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/02-portfolio_javascript_marcio_moraes', 
+      img: 'https://marcio-moraes.github.io/portfolio/assets/images/02-portfolio_javascript_marcio_moraes.png', 
       gitcode: 'https://github.com/marcio-moraes/frs-advocacia', 
       tecnologias:'#Javascript', 
       description:'Primeira versão do meu portfólio atual, feito com javascript puro, html, css..', 
@@ -22,7 +22,7 @@ let projetosLista = [
     {
       id: 3, 
       name: 'Galeria de fotos', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/03-galeria_de_fotos', 
+      img: 'https://marcio-moraes.github.io/portfolio/assets/images/03-galeria_de_fotos.png', 
       gitcode: 'https://github.com/Marcio-Moraes/galeria-de-fotos-reactjs-firebase', 
       tecnologias:'#reactjs', 
       description:'Galeria de fotos Reactjs Typescript com Firebase', 
@@ -42,7 +42,7 @@ let projetosLista = [
     {
       id: 5, 
       name: 'Breda Brand', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/04-breda-moda-feminina', 
+      img: 'https://marcio-moraes.github.io/portfolio/assets/images/04-breda-moda-feminina.png', 
       gitcode: '#', tecnologias: '#wordpress', 
       description: 'Loja de Vestuário Feminino', 
       classTipo:'wordpress', 
@@ -51,7 +51,7 @@ let projetosLista = [
     {
       id: 6, 
       name: 'Linostoque', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/05-linostoque', 
+      img: 'https://marcio-moraes.github.io/portfolio/assets/images/05-linostoque.png', 
       gitcode: '#', 
       tecnologias: '#wordpress', 
       description: 'Loja de Vestuário Feminino', 
