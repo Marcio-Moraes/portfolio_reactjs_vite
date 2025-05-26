@@ -13,7 +13,7 @@ let projetosLista = [
       id: 2, 
       name: 'Portfólio versão Javascript', 
       img: 'https://marcio-moraes.github.io/portfolio/assets/images/02-portfolio_javascript_marcio_moraes.png', 
-      gitcode: 'https://github.com/marcio-moraes/frs-advocacia', 
+      gitcode: 'https://github.com/Marcio-Moraes/portfolio', 
       tecnologias:'#Javascript', 
       description:'Primeira versão do meu portfólio atual, feito com javascript puro, html, css..', 
       classTipo:'reactjs', 

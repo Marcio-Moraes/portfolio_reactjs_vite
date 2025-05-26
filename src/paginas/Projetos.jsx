@@ -68,6 +68,7 @@ const Projetos = () =>{
     const projetosNextjs = listaProjetos.filter(itemP => itemP.tecnologias === '#nextjs');    
     const projetosReactjs = listaProjetos.filter(itemP => itemP.tecnologias === '#reactjs');    
     const projetosJavascript = listaProjetos.filter(itemP => itemP.tecnologias === '#javascript');    
+    const projetosWordPress = listaProjetos.filter(itemP => itemP.tecnologias === '#wordpress');    
 
     
     
@@ -143,11 +144,11 @@ const Projetos = () =>{
                             }
 
                             {listaJS && 
-                                <h1>Javascript</h1>
+                                <ListaProjeto lista={projetosJavascript} />
                             }
 
                             {listaWp && 
-                                <h1>WordPress</h1>
+                                <ListaProjeto lista={projetosWordPress} />
                             }
                     </div>
 
