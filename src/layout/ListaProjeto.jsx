@@ -24,15 +24,18 @@ const ListaProjeto = ({lista}) => {
                         alignItems: 'center', justifyContent: 'space-between', width: '100%',
                     }}>
                         <div style={{display: 'flex',flexDirection: 'column'}}>
-                            <div style={{
+                            <a style={{
                                 backgroundColor: colors.azul,
                                 color: colors.branco1,
                                 margin: '10px 0',
                                 display: 'flex',
-                                justifyContent: 'center',
-                            }}>
+                                justifyContent: 'center',                                
+                            }}
+                                href={item.link}
+                                target="_blank"
+                            >
                                 link
-                            </div>
+                            </a>
                             <a 
                                 href={item.link} 
                                 target="_blank"
@@ -43,6 +46,11 @@ const ListaProjeto = ({lista}) => {
                             >
                                 {item.name}
                             </a>
+                            <div className="div_description">
+                                <p>
+                                    {item.description}
+                                </p>
+                            </div>
                         </div>
 
                         <div>
