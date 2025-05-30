@@ -23,13 +23,13 @@ const ListaProjeto = ({lista}) => {
                         display: 'flex',
                         alignItems: 'center', justifyContent: 'space-between', width: '100%',
                     }}>
-                        <div style={{display: 'flex',flexDirection: 'column'}}>
+                        <div style={{display: 'flex',flexDirection: 'column', flex: '1'}}>
                             <a style={{
                                 backgroundColor: colors.azul,
                                 color: colors.branco1,
                                 margin: '10px 0',
                                 display: 'flex',
-                                justifyContent: 'center',                                
+                                justifyContent: 'center',
                             }}
                                 href={item.link}
                                 target="_blank"
@@ -41,7 +41,9 @@ const ListaProjeto = ({lista}) => {
                                 target="_blank"
                                 style={{
                                     color: colors.branco1,
-                                    textDecoration: 'none'
+                                    textDecoration: 'none',
+                                    textTransform: 'uppercase',
+                                    marginBottom: '30px'
                                 }}
                             >
                                 {item.name}
@@ -53,7 +55,9 @@ const ListaProjeto = ({lista}) => {
                             </div>
                         </div>
 
-                        <div>
+                        <div style={{
+                            flex: '1'
+                        }}>
                             <a 
                                 href={item.gitcode} 
                                 target="_blank"
