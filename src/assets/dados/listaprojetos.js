@@ -1,8 +1,18 @@
 let projetosLista = [
     {
       id: 1, 
+      name: 'B7Store - Loja Virtual - NextJS', 
+      img: '/assets/images/projetos/01-b7store.png', 
+      gitcode: 'https://github.com/Marcio-Moraes/b7store', 
+      tecnologias:'#nextjs', 
+      description:'Loja virtual de roupas e acessórios de tecnologia com Nextjs, TailwindCss, typescript, Zustand', 
+      classTipo:'nextjs', 
+      link: 'https://b7store.vercel.app/'
+    },
+    {
+      id: 2, 
       name: 'Portfólio versão Reactjs Vite', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/01-marcio_moraes_portfolio_reactjs_vite.png', 
+      img: '/assets/images/projetos/02-marcio_moraes_portfolio_reactjs_vite.png', 
       gitcode: 'https://github.com/Marcio-Moraes/portfolio_reactjs_vite', 
       tecnologias:'#reactjs', 
       description:'Versão do meu portfólio em ReactJS Vite', 
@@ -10,29 +20,29 @@ let projetosLista = [
       link: 'https://marciomsilva.com.br/'
     },
     {
-      id: 2, 
+      id: 3, 
       name: 'Portfólio versão Javascript', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/02-portfolio_javascript_marcio_moraes.png', 
+      img: '/assets/images/projetos/04-portfolio_javascript_marcio_moraes.png', 
       gitcode: 'https://github.com/Marcio-Moraes/portfolio', 
       tecnologias:'#Javascript', 
       description:'Primeira versão do meu portfólio atual, feito com javascript puro, html, css..', 
-      classTipo:'reactjs', 
-      link: 'https://galeria-de-fotos-reactjs-firebase.vercel.app/'
-    },
-    {
-      id: 3, 
-      name: 'Galeria de fotos', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/03-galeria_de_fotos.png', 
-      gitcode: 'https://github.com/Marcio-Moraes/galeria-de-fotos-reactjs-firebase', 
-      tecnologias:'#reactjs', 
-      description:'Galeria de fotos Reactjs Typescript com Firebase', 
-      classTipo:'reactjs', 
-      link: 'https://galeria-de-fotos-reactjs-firebase.vercel.app/'
+      classTipo:'javascript', 
+      link: 'https://marcio-moraes.github.io/portfolio/'
     },
     {
       id: 4, 
+      name: 'Quiz Bíblico', 
+      img: '/assets/images/projetos/03-quiz.png', 
+      gitcode: 'https://github.com/Marcio-Moraes/quiz-biblico-efesios-1-2', 
+      tecnologias:'#nextjs', 
+      description:'Quiz Bíblico NextJS, TailwindCss', 
+      classTipo:'nextjs', 
+      link: 'https://quiz-biblico-efesios-1-2.vercel.app/'
+    },
+    {
+      id: 5, 
       name: 'Faoro Reis Sztajnbok', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/faoro-reis-sztajnbok-frs-advocacia.png', 
+      img: '/assets/images/projetos/06-faoro-reis-sztajnbok-frs-advocacia.png', 
       gitcode: 'https://github.com/marcio-moraes/frs-advocacia', 
       tecnologias:'#javascript', 
       description:'Escritório de Advocacia - Faoro Reis Sztajnbok', 
@@ -40,33 +50,24 @@ let projetosLista = [
       link: 'https://marcio-moraes.github.io/frs-advocacia/'
     },
     {
-      id: 5, 
+      id: 6, 
       name: 'Breda Brand', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/04-breda-moda-feminina.png', 
-      gitcode: '#', tecnologias: '#wordpress', 
+      img: '/assets/images/projetos/07-breda-moda-feminina.png', 
+      gitcode: '#', 
+      tecnologias: '#wordpress', 
       description: 'Loja de Vestuário Feminino, desenvolvida em WordPress e Woocommerce', 
       classTipo:'wordpress', 
       link: 'https://bredabrand.com.br/'
     },
     {
-      id: 6, 
+      id: 7, 
       name: 'Linostoque', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/05-linostoque.png', 
+      img: '/assets/images/projetos/08-linostoque.png', 
       gitcode: '#', 
       tecnologias: '#wordpress', 
       description: 'Loja de Calçados e acessórios Femininos, Masculinos e Unissex. Desenvolvida em WordPress e Woocommerce', 
       classTipo:'wordpress', 
       link: 'https://www.linostoque.com.br/'
-    },
-    {
-      id: 7, 
-      name: 'Relógio Analógico e Digital', 
-      img: 'https://marcio-moraes.github.io/portfolio/assets/images/relogio_analogico_digital.png', 
-      gitcode: 'https://github.com/Marcio-Moraes/relogio-analogico-digital', 
-      tecnologias: '#javascript', 
-      description: 'Relógio Analógico e Digital - consulta e exibe a hora de acordo com informações de data e hora do computador do usuário com Javascript', 
-      classTipo:'javascript', 
-      link: 'https://marcio-moraes.github.io/relogio-analogico-digital/'
     },
   ];
   
